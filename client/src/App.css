@@ -1,0 +1,216 @@
+.todo-main { 
+	width: 400px; 
+	margin: 0 auto; 
+}
+
+.header {
+	background-color: #b17fec;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	height: 40px;
+	padding: 0.1px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+}
+
+.todo {
+	width: 365px;
+	background-color: white;
+	box-shadow: 0 0 30px 1px #C7C6C6;
+	margin-bottom: -4px;
+	padding-right: 35px;
+	word-wrap: break-word;
+}
+
+.newButton {
+	background-color: #b17fec;
+	border: 0;
+	color: white;
+	border-radius: 18px;
+	width: 140px;
+	height: 40px;
+	font-size: 17px;
+	font-weight: bold;
+	box-shadow: 0 0 20px 0.1px rgba(204,171,243,1);
+	display: block;
+	cursor: pointer;
+	transition: background-color 100ms;
+	margin: 0 auto;
+	outline: none;
+}
+
+.newButton:hover {
+	background-color: #b18fec;
+}
+
+.inputTask {
+	width: 370px;
+	height: 35px;
+	line-height: 10.36px;
+	background-color: #C7C6C6;
+	color: white;
+	border: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: 20px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.circle {
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 1px solid gray;
+	margin-right: 15px;
+	float: left;
+	margin-top: 7px;
+	cursor: pointer;
+}
+
+.completeCircle {
+
+	background-color: #c8aefb;
+
+}
+
+.circle:hover {
+	background-color: #c8aefb;
+}
+
+.complete {
+	text-decoration:line-through;
+}
+
+.editForm {
+	display: inline-block;
+}
+
+.task {
+	color: #868a96;
+	font-size: 18px;
+	margin-bottom: 10px;	
+}
+
+.list {
+	list-style: none;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+.icon-delete {
+	background-image: url(./img/delete.svg);
+	width: 15px;
+	height: 15px;
+	visibility: hidden;
+	float: right;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.icon-edit {
+	background-image: url(./img/edit.svg);
+	width: 15px;
+	height: 15px;
+	visibility: hidden;
+	float: right;
+	background-size: 100%;
+	cursor: pointer;
+	margin-right: 7px;
+}
+
+.task:hover .icon-edit {
+	visibility: visible;
+}
+
+.task:hover .icon-delete {
+	visibility: visible;
+}
+
+.auth-form {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin:-200px 0 0 -150px;
+}
+
+.login-text {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.border {
+	width: 276px;
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 23px;
+}
+
+.auth-form input {
+	display: block;
+	border: 1px solid #e2e2e2;
+	height: 35px;
+	width: 260px;
+	border-radius: 2px;
+	padding: 5px 7px;
+	margin-bottom: 7px;
+	font-size: 15px;
+}
+
+.login-button {
+	border: none;
+	color: white;
+	background-color: #b17fec;
+	font-size: 16px;
+	width: 276px;
+	height: 45px;
+	outline: none;
+	border-radius: 4px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.change {
+	float: right;
+	font-size: 11px;
+}
+
+.reg-button {
+	border: none;
+	color: white;
+	background-color: #b17fec;
+	font-size: 11px;
+	width: 60px;
+	height: 20px;
+	outline: none;
+	border-radius: 2px;
+	margin-top: 20px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.login-button:hover {
+	background-color: #b18fec;
+}
+
+
+::-webkit-input-placeholder {
+  color: #d7d7d7;
+  font-size: 13px;
+}
+
+::-moz-placeholder {
+  color: #d7d7d7;
+  font-size: 13px;
+}
+:-ms-input-placeholder {
+  color: #d7d7d7;
+  font-size: 13px;
+}
+:-moz-placeholder {
+  color: #d7d7d7;
+  font-size: 13px;
+}
